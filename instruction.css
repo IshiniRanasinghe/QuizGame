@@ -1,0 +1,171 @@
+*{
+    font-family: Lato, sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    
+}
+
+h1{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(173, 57, 205);
+    font-size: xx-large;
+}
+body, html {
+     height: 100%;
+     margin: 0;
+}
+body{
+    background-image: url("images/instructionbackground.jpg");
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+input[type=submit]:hover{
+    background-color: #a86fc9;
+
+}
+footer{
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+position: fixed;
+bottom: 1%;
+padding-left: 45%;
+font-size: larger;
+color: rgb(78, 181, 146);   
+}
+footer a{
+color: rgb(45, 86, 60);
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ 
+      nav ul{
+        float: right;
+        margin-right: 30px;
+
+      }
+
+      nav ul li{
+     
+        display: inline-block;
+      }
+
+      nav ul li a{
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        display: block;
+        padding: 0 15px;
+        line-height: 70px;
+        font-size: 20px;
+        transition: .5s;
+        
+      }
+
+      nav ul li a:hover{
+        color: #1c0d43;
+      }
+
+
+      nav ul ul{
+        position: absolute;
+        top: 85px;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+
+      nav ul li:hover > ul{
+        top: 70px;
+        opacity: 1;
+        visibility: visible;
+        transition: .3s linear;
+      }
+
+      nav ul ul li{
+        width: 150px;
+        display: list-item;
+        border: 1px solid #1d2324;
+        position: relative;
+        border-top: none;
+        width: 200px;
+        color: #9a96af;
+      }
+
+      nav ul ul li a{
+        line-height: 50px;
+        color: #9711c0;
+        font-family: Lato, sans-serif;
+        
+      }
+
+      nav ul ul ul{
+        border-top: none;
+      }
+
+      nav ul ul ul li{
+        position: relative;
+        top: -70px;
+        left: 150px;
+        
+      }
+
+      nav ul ul li a i{
+        margin-left: 45px;
+        width:800px;
+      }
+
+      /* The sticky class is added to the header with JS when it reaches its scroll position */
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%
+    }
+    
+    
+    .logo{
+        margin-left: 0px;
+        height: 70px;
+        
+      }
+    
+      .logo img{
+       float: left;
+        position:flex;
+        top:0;
+        border-radius: 80%;
+        width: 70px;
+        height: 70px;
+        
+      }
+      nav{
+        height: 70px;
+        background: linear-gradient(to bottom left,#2ebda5,#320a72,#11b452,#df17aa);
+        
+      }
+
+

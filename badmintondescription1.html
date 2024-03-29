@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/badmintondescription1.css">
+<link rel="icon" href="css/images/logo.jpg">
+<script src="https://kit.fontawesome.com/c156086429.js" crossorigin="anonymous"></script>
+<title>Badminton description </title>
+</head>
+<body>
+        <nav id="myHeader">
+          <a href="#" class="logo"><img src="css/images/logo.jpg" alt="logo"></a>
+           <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li>
+                 <a href="#">Products
+                 <i class="fas fa-caret-down"></i>
+                 </a>
+                 <ul>
+                    <li><a href="cricket.html">Cricket</a></li>
+                    <li><a href="swimming.html">Swimming</a></li>
+                    <li><a href="badminton.html">Badminton</a></li>
+                    <li><a href="rugby.html">Rugby</a></li>
+                 </ul>
+              </li>
+              <li><a href="quiz.html">Quiz</a></li>
+              <li><a href="#">Site Map</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="Aboutus.html">About Us</a></li>
+              <li><a href="#">Gallery</a></li> 
+           </ul>
+        </nav>
+        <div id="gif"> 
+            <!--When the user moves the  over the picture, the name of that sports is displayed-->
+              <div class="crimg">
+                 <div class="image">
+                    <img class="cri1" src="css/images/badminton1.gif" alt="cricket">
+                    <a href="cricketdescription.html"><!--Hidden Layer-->
+                        <!--Title of the Hidden Layer-->
+                    </a>
+                    </div>
+                </div>
+                <!--Sport 2-->
+                <div class="crimg2">
+                    <div class="image2">
+                        <img class="cri12" src="css/images/badminton2.gif" alt="cricket">
+                        <a class="link" href="https://youtu.be/u--taRfMoTs"><strong>drop shot </strong><!--Hidden Layer-->
+                             <!--Title of the Hidden Layer-->
+                        </a>
+                    </div>
+                </div>
+                <div class="crimg">
+                    <div class="image">
+                       <img class="cri1" src="css/images/badminton3.gif" alt="cricket">
+                       <a class="link" href="https://youtu.be/H7kpZ9inc10"><strong> smash shot </strong> <!--Hidden Layer-->
+                           <!--Title of the Hidden Layer-->
+                       </a>
+                       </div>
+                </div>
+                <div class="crimg">
+                    <div class="image">
+                       <img class="cri1" src="css/images/badminton4.gif" alt="cricket">
+                       <a class="link" href="https://youtu.be/doV0m6MNTCo"><strong>Net shot</strong><!--Hidden Layer-->
+                           <!--Title of the Hidden Layer-->
+                       </a>
+                       </div>
+                </div>
+           </div>
+   <div class="Badminton"> Badminton <br><br>
+     <div class ="para"> 
+        The Game Is Called Badminton, Which Was Initially 
+        Played Around 1873 At The Duke Of Beaufort's Country 
+        Home In Gloucestershire, UK. The Sport Has Roots In 
+        Ancient Greece, China, And India, And It Shares Many 
+        Similarities With The Classic Kids' Games Battledore And 
+        Shuttlecock. Poona Was A Game Played By British Army Officers 
+        Stationed In India In The 1860s, And It Is Directly Related 
+        To Badminton. The First Unofficial Men's And Women's Badminton 
+        Tournaments For The Entire Country Were Staged In 1899 And 1899, 
+        Respectively. Badminton Made Its Olympic Debut In 1972 As A 
+        Demonstration Sport And In 1988 As An Exhibition Sport.
+     </div>
+ </div>
+        <footer>
+            <div class="footer_info">
+                <div>
+                <a href="#" class="flogo"><img class="flogo" src="css/images/logo.jpg" alt="title-logo"></a>
+                </div>
+                
+                <div class="footer_width about">
+                    <h2>About</h2>
+                    <p>Cricket Equipment<br>Swimming Equipment<br> Badminton Equipment<br>Rugby Equipment </p>
+                </div>
+                <div class="footer_width link">
+                    <h2> Quick Link</h2>  
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="quiz.html">Quiz</a></li>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="Aboutus.html">About Us</a></li>
+                        <li><a href="#">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer_width contact">
+                    <h2>Sport Zone</h2>
+                        <ul>
+                            <li><a href="Aboutus.html">About us</a></li>
+                        </ul>  
+                </div>
+                <div class="icon">
+                <ul>
+                    <li><a href="https://www.facebook.com/SMARTSportsPhilippines/?_rdc=1&_rdr" class="fa fa-facebook"></a></li> 
+                    <li><a href="https://www.youtube.com/watch?v=PGZiixvXK4g" class="fa fa-youtube"></a></li> 
+                    <li><a href="https://www.ispo.com/en/news-companies/top-10-most-popular-sports-brands-instagram" class="fa fa-instagram"></a></li> 
+                </ul>      
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>© Copyright Sport Zone  2023, All rights reserved.</p>
+                <br>
+                <p class="view-page-editor">
+                <a href="IshiniRanasinghe.html"> Editor:- Ishini Ranasinghe</a>
+                </p>
+            </div>  
+        </footer>
+        <script>
+            //Javascript for sticky navigation bar
+            window.onscroll = function() {myFunction()};           
+            // Get the header
+            var header = document.getElementById("myHeader");
+            const img = document.getElementById("slider");              
+            var sticky = header.offsetTop;             
+            function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+                img.style.zIndex = '-1';           
+            } else {
+                header.classList.remove("sticky");
+            }
+            }               
+        </script>
+    </body>
+</html>
+
+
+
+
+
+

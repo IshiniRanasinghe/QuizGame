@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-image: url("images/quiz1.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+
+
+.qa_box{
+    width: 500px;
+    padding: 20px;
+    min-height: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 3);
+    border-radius: 18px;
+}
+.qa_header{
+    background-color:#936396;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin: -20px -20px 20px;
+    border-radius: 15px 15px 0 0;
+    font-size: 20px;
+
+}
+.qa_set{
+    display: none;
+}
+.qa_set.active{
+    display: block;
+}
+.qa_set h4{
+    margin: 0 0 15px;
+    font-size: 20px;
+}
+.qa_ans_row{
+    position: relative;
+    margin-bottom: 10px;
+}
+.qa_ans_row input{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
+}
+.qa_ans_row span{
+    display: block;
+    padding: 8px 15px;
+    background-color: #bad0c9;
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+}
+.qa_ans_row:hover span{
+    background-color: #9ab5ac;
+}
+.qa_ans_row input:checked + span{
+    background-color: #ca2e2e;
+}
+.qa_ans_row input[value]:checked + span{
+    background-color: rgb(35, 187, 35);
+    color: #fff;
+}
+.qa_footer{
+    padding: 10px 0 0;
+    text-align: right;
+}
+.home{
+    padding: 10px 0 0;
+    text-align: left;
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #7f3c8d;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s  ease-out;
+}
+.btn1{
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #7f3c8d;
+    color: #efdcdc;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s  ease-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+.btn1:hover{
+    background-color: #5cc283;
+}
+.btn2{
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #7f3c8d;
+    color: #efdcdc;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s  ease-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+.btn2:hover{
+    background-color: #5cc283;
+}
+
+.button{
+    position: absolute;
+    top:50%;
+    background-color:#0a0a23;
+}
+footer{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 1%;
+    padding-left: 10%;
+    font-size: larger;
+    color: rgb(78, 181, 146);    
+}
+footer a{
+    color: aliceblue;
+
+}
+   

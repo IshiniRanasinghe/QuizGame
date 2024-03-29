@@ -1,0 +1,446 @@
+*{
+    font-family: Lato, sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    
+}
+.aboutu_img{
+    padding-top: 7%;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 0.5;
+    text-align: center;
+    align-items: center;
+    gap: 10%;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+.aboutu_img .student{
+    text-align: center;
+    padding:2rem 2rem;
+    background: #e0cfcf2c;
+    box-shadow: 1rem 1rem rgba(135, 134, 134, 0.1);
+    outline: .1rem solid #1e1c1c;
+    outline-offset: 1.5rem;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.aboutu_img .student:hover{
+    outline: .2rem solid rgb(49, 56, 49);
+    outline-offset: 0;
+}
+.aboutu_img .student img{
+    height: 20rem;
+}
+.aboutu_img .student img:hover{
+    transform: scale(.9);
+}
+.aboutu_img .student{
+    font-weight: bold;
+    color:transparent;
+}
+.aboutu_img .student:hover{    
+    color:rgb(242, 240, 240);
+}
+body{
+    background-image: url('images/aboutusbg1.jpg');
+    color: #ffffff;                                
+}
+h1{
+    padding-top: 5% ;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.view-page-editor {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 1%;
+    padding-left: 45%;
+    font-size: larger;
+    color: aqua;    
+}
+.view-page-editor {
+    color: aliceblue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
+      nav ul{
+        float: right;
+        margin-right: 30px;
+
+      }
+      nav ul li{
+     
+        display: inline-block;
+      }
+      nav ul li a{
+        font-weight: bold;
+        color: rgb(146, 92, 92);
+        display: block;
+        padding: 0 15px;
+        line-height: 70px;
+        font-size: 20px;
+        transition: .5s;
+        
+      }
+      nav ul li a:hover{
+        color: #fbfafc;
+      }
+      nav ul ul{
+        position: absolute;
+        top: 85px;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+
+      nav ul li:hover > ul{
+        top: 70px;
+        opacity: 1;
+        visibility: visible;
+        transition: .3s linear;
+      }
+
+      nav ul ul li{
+        width: 150px;
+        display: list-item;
+        border: 1px solid #1d2324;
+        position: relative;
+        border-top: none;
+        width: 200px;
+        color: #cbc5e4;
+      }
+
+      nav ul ul li a{
+        line-height: 50px;
+        color: #b582c5;
+        
+      }
+
+      nav ul ul ul{
+        border-top: none;
+      }
+
+      nav ul ul ul li{
+        position: relative;
+        top: -70px;
+        left: 150px;
+      }
+
+      nav ul ul li a i{
+        margin-left: 45px;
+        width:800px;
+      }
+
+      /* The sticky class is added to the header with JS when it reaches its scroll position */
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%
+    }
+    
+    
+    .logo{
+        margin-left: 0px;
+        height: 70px;
+        
+      }
+    
+      .logo img{
+       float: left;
+        position:flex;
+        top:0;
+        border-radius: 80%;
+        width: 70px;
+        height: 70px;
+        
+      }
+      nav{
+        height: 70px;
+        background: linear-gradient(to bottom left,#0a0a64,#320a72,#3559bb,#23b5d9);
+        
+      }
+
+
+      a{
+        text-decoration: none;
+        color: #fff;
+    }
+        
+    ul,li{
+        list-style-type: none;
+        }
+        
+    footer{
+        background: rgb(160, 143, 133);
+        background: linear-gradient(to bottom left,#4c444190,#7f7d77,#a4ab9c,#6a6964dd);
+        }
+        
+    .footer_info{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        padding: 50px 0;
+        }
+        
+    .footer_info .footer_width{
+        padding: 10 0px;
+        color: #000;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 40px;
+        }
+        
+    .footer_info h2{
+        margin-bottom: 10px;
+        font-family: sans-serif;
+        }
+    
+    .about, .contact{
+        font-size: 20px;
+        width: 30%;
+        }
+    
+    .link{
+        width: 30%;
+        }
+        
+    .link ul li a{
+        display: block;
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: #0a0a64;
+        width: 100px;
+        }
+        .link ul li a :hover {
+            color: #23b5d9;
+        }    
+        
+    
+        
+    .contact ul li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        }
+        
+    .copy-right{
+        padding: 10px 0;
+        text-align: center;
+        background-color: rgb(66, 66, 66);
+        }
+        
+    @media screen and (max-width:992px){
+        .about, .contact{
+        width: 25%;
+        }
+        
+    .link{
+        width: 30%;
+        }
+    }
+        
+    @media screen and (max-width:767px){
+        .about, .contact, .link{
+        width: 100%;
+        
+        }    
+    .footer_info{
+        flex-direction: column;
+        }
+    
+    }
+    .view-page-editor {
+          padding-top: 2px;
+          font-size: 18px;
+    
+        }
+    
+    .view-page-editor a {
+          text-decoration: none;
+          color: #53ffa3;
+          cursor: pointer;
+        }
+    
+    .view-page-editor a:hover {
+          color: #df2020;
+          transition: 0.5s;
+        }
+    
+    
+    
+    .flogo{
+       
+        border-radius: 80%;
+        width: 80px;
+        height: 80px;
+        
+    }    
+    .fa {
+        margin-bottom: 10px;
+        padding-right: 70px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      /* Set a specific color for each brand */
+      
+    
+      .fa-facebook {
+        color: white;
+      }
+      
+    
+      .fa-twitter {
+        color: white;
+      }
+    
+      .fa-instagram {
+        color: white;
+      }      
+a{
+    text-decoration: none;
+    color: #fff;
+}
+    
+ul,li{
+    list-style-type: none;
+    }
+    
+footer{
+    background: rgb(160, 143, 133);
+    background: linear-gradient(to bottom left,#4c444190,#7f7d77,#a4ab9c,#6a6964dd);
+    }
+    
+.footer_info{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0;
+    }
+    
+.footer_info .footer_width{
+    padding: 10 0px;
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 40px;
+    }
+    
+.footer_info h2{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    }
+
+.about, .contact{
+    font-size: 20px;
+    width: 30%;
+    }
+
+.link{
+    width: 30%;
+    }
+    
+.link ul li a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    }
+        
+.contact ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+    
+.copy-right{
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+    }
+    
+@media screen and (max-width:992px){
+    .about, .contact{
+    width: 25%;
+    }
+    
+.link{
+    width: 30%;
+    }
+}
+    
+@media screen and (max-width:767px){
+    .about, .contact, .link{
+    width: 100%;
+    
+    }
+
+.footer_info{
+    flex-direction: column;
+    }
+
+}
+.view-page-editor {
+      padding-top: 2px;
+      font-size: 18px;
+
+    }
+.view-page-editor a {
+      text-decoration: none;
+      color: #53ffa3;
+      cursor: pointer;
+    }
+
+.view-page-editor a:hover {
+      color: #fff;
+      transition: 0.5s;
+    }
+.flogo{
+   
+    border-radius: 80%;
+    width: 80px;
+    height: 80px;   
+}
+.fa {
+    margin-bottom: 10px;
+    padding-right: 70px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  .fa-facebook {
+    color: white;
+  }
+  
+  .fa-twitter {
+    color: white;
+  }
+
+  .fa-instagram {
+    color: white;
+  }
+  

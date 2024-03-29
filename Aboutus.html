@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/aboutus.css">
+        <title>About Us..</title>
+        <link rel="icon" href="css/images/logo.jpg" type="image/x-icon">
+        <style>
+            a{
+                color: rgb(186, 219, 208);
+            }
+        </style> 
+    </head>
+    <body>
+        <header>
+            <nav id="myHeader">
+              <a href="#" class="logo"><img src="css/images/logo.jpg" alt=""></a>
+               <ul>
+                  <li><a class="active" href="#">Home</a></li>
+                  <li>
+                     <a href="#">Products
+                     <i class="fas fa-caret-down"></i>
+                     </a>
+                     <ul>
+                        <li><a href="cricketdescription.html">Cricket</a></li>
+                        <li><a href="swimmingdescription.html">Swimming</a></li>
+                        <li><a href="badmintondescription.html">Badminton</a></li>
+                        <li><a href="rugbydescription.html">Rugby</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="quiz.html">Quiz</a></li>
+                  <li><a href="#">Site Map</a></li>
+                  <li><a href="#">Feedback</a></li>
+                  <li><a href="Aboutus.html">About Us</a></li>   
+               </ul>
+            </nav>
+          </header><br>
+          <h1>- About us -</h1>
+        <div class="aboutu_img">
+            <figure class="student">
+                <img src="css/images/nadali.jpg" alt="" width="250" height="270" >
+                <figcaption>U.H.Nadali Linara <br>Student 1</figcaption>
+            </figure>
+            <figure class="student">
+                <img src="css/images/chathundi.jpg" alt="" width="250" height="270">
+                <figcaption>K.K.C.Sakumini<br>Student 2</figcaption>
+            </figure>
+        </div>        
+        <div class="aboutu_img">
+        <figure class="student">
+            <img src="css/images/ish2.jpg" alt="" width="250" height="270">
+            <figcaption>Ishini Ranasinghe<br>Student 3</figcaption>
+        </figure>
+        <figure class="student">
+            <img src="css/images/didula.jpeg" alt="" width="250" height="270">
+            <figcaption>M.W.D.Didula<br>Student 4</figcaption>
+        </figure></div>
+        <br><br><br>
+        <footer>
+            <div class="footer_info">
+                <div>
+                  <a href="#" class="flogo"><img class="flogo" src="css/images/logo.jpg" alt="title-logo" ></a>
+                </div>
+                
+                <div class="footer_width about">
+                    <h2>About</h2>
+                    <p>Cricket Equipment<br>Swimming Equipment<br> Badminton Equipment<br>Rugby Equipment </p>
+                </div>
+          
+                <div class="footer_width link">
+                    <h2> Quick Link</h2>  
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="quiz.html">Quiz</a></li>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="Aboutus.html">About Us</a></li>
+                        <li><a href="#">Gallery</a></li>
+                    </ul>
+                </div>    
+                <div class="footer_width contact">
+                    <h2>Sport Zone</h2>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                        </ul>  
+                </div>         
+                <div class="icon">
+                <ul>             
+                    <li><a href="https://www.facebook.com/SMARTSportsPhilippines/?_rdc=1&_rdr" class="fa fa-facebook"></a></li> 
+                    <li><a href="https://www.youtube.com/watch?v=PGZiixvXK4g" class="fa fa-youtube"></a></li> 
+                    <li><a href="https://www.ispo.com/en/news-companies/top-10-most-popular-sports-brands-instagram" class="fa fa-instagram"></a></li> 
+                </ul>                    
+                </div>         
+            </div>
+            <div class="copy-right">
+                <p>© Copyright Sport Zone  2023, All rights reserved.</p>
+                <br><br>
+                <p class="view-page-editor"><br>
+                <a href="IshiniRanasinghe.html"> Editor:- Ishini Ranasinghe</a>
+                </p>
+            </div>   
+          </footer>
+          <script>
+            //Javascript for sticky navigation bar
+            // When the user scrolls the page, execute myFunction
+            window.onscroll = function() {myFunction()};
+            // Get the header
+            var header = document.getElementById("myHeader");
+            const img = document.getElementById("slider");
+            // Get the offset position of the navbar
+            var sticky = header.offsetTop;
+            // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+                img.style.zIndex = '-1';
+            } else {
+                header.classList.remove("sticky");
+            }
+            }
+        </script>
+    </body>
+</html>

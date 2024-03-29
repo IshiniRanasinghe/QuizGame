@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-image: url("images/pexels-eric-anada-3660204.jpg");
+    
+    background-size: cover;
+   
+    
+    height: 500px;
+
+    width: auto;
+    
+}
+
+
+.para{
+    margin-left: 40px;
+
+    margin-right: 40px;
+    
+
+    font-weight: 550;
+        
+    font-size:30px;
+        
+    text-align: justify;
+        
+    line-height: 1.5;
+        
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    
+}
+
+    
+.Badminton{
+   
+    font-size: 3em;
+        
+    text-align: center;
+    
+    font-weight: bold;
+    
+    padding:0 5px;
+
+    padding-top: 5%;
+
+    height: 610px;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    margin: auto;
+
+    display: block;
+
+    width: 1200px;
+
+    background: rgba(255, 255, 255, .2);
+
+    color: #000000;
+
+    line-height: 32px;
+
+    border-radius: 20px;
+
+    backdrop-filter: blur(10px);
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+    
+}
+.link{
+    color: #ffffff;
+    font-size: xx-large;
+}
+
+
+a{
+ 
+    text-decoration: none;
+
+    color: #fff;
+  }
+    
+  ul,li{
+   
+    list-style-type: none;
+    }
+    
+
+  
+  nav ul{
+  
+    float: right;
+  
+    margin-right: 30px;
+
+  }
+
+  nav ul li{
+     display: inline-block;
+  
+    }
+
+  nav ul li a{
+    
+    font-weight: bold;
+    
+    color: rgb(16, 14, 14);
+    
+    display: block;
+    
+    padding: 0 15px;
+    
+    line-height: 70px;
+    
+    font-size: 20px;
+    
+    transition: .5s;
+  
+  }
+
+  nav ul li a:hover{
+    
+    color: #ffd504;
+    
+  }
+
+
+  nav ul ul{
+    
+    position: absolute;
+    
+    top: 85px;
+    
+    opacity: 0;
+    
+    visibility: hidden;
+    
+    z-index: 9999;
+  
+  }
+
+  nav ul li:hover > ul{
+    
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+  }
+
+  nav ul ul li{
+    
+    width: 150px;
+    display: list-item;
+    border: 1px solid #fff701;
+    position: relative;
+    border-top: none;
+  }
+
+  nav ul ul li a{
+    background-color: #0a11cd;
+    line-height: 50px;
+  }
+
+  nav ul ul ul{
+    border-top: none;
+  }
+
+  nav ul ul ul li{
+    
+    position: relative;
+    top: -70px;
+    left: 150px;
+  }
+
+  nav ul ul li a i{
+    margin-left: 45px;
+  }
+
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+
+.logo{
+    margin-left: 0px;
+    height: 70px;
+    
+  }
+
+  .logo img{
+   
+    position:flex;
+    top:0;
+    border-radius: 80%;
+    width: 70px;
+    height: 70px;
+    
+  }
+  nav{
+    z-index: 100;
+    height: 70px;
+    background: linear-gradient(to bottom left,#2e07db,#1050a9,#918dd6,#7382f4);
+ 
+  }
+
+  .image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+   
+  }
+ 
+  
+  
+  .cri1 {
+   
+    display: block;
+    width: 100%;
+    height: 100%;
+  
+  }
+
+ 
+  
+  .crimg {
+  margin-left: 40px;
+  width: 280px;
+  height: 170px;
+  margin-right:40px;
+   
+  }
+  .crimg2 {
+    margin-left: 40px;
+    width: 280px;
+    height: 190px;
+    margin-right:40px;
+    margin-top: -10px;
+     
+    }
+    .image2 {
+      position: relative;
+      width: 100%;
+      height: 100%;
+     
+    }
+    .cri12 {
+   
+      display: block;
+      width: 100%;
+      height: 100%;
+    
+    }
+  
+  #gif{
+    
+  margin-top:70px;
+  display:flex;
+  margin-bottom: 70px;
+    
+  }
+
+  footer{
+
+    background: rgb(160, 143, 133);
+
+    background: linear-gradient(to bottom left,#4c444190,#7f7d77,#a4ab9c,#6a6964dd);
+
+    }
+    
+  .footer_info{
+
+    width: 100%;
+    
+    margin: 0 auto;
+    
+    display: flex;
+    
+    padding: 50px 0;
+    
+  }
+    
+  .footer_info .footer_width{
+
+    padding: 10 0px;
+
+    color: #000;
+
+    
+    font-weight: bold;
+    
+    text-align: left;
+    
+    margin-left: 40px;
+    
+  }
+    
+  .footer_info h2{
+    
+    margin-bottom: 10px;
+    
+    font-family: sans-serif;
+    
+  }
+  
+  .about, .contact{
+    
+    font-size: 20px;
+    
+    width: 30%;
+    
+  }
+  
+  .link{
+  
+    width: 30%;
+  
+  }
+    
+  .link ul li a{
+    
+    display: block;
+    
+    margin-bottom: 10px;
+    
+    font-size: 15px;
+    
+  }
+    
+  
+    
+  .contact ul li {
+    
+    display: flex;
+    
+    align-items: center;
+    
+    margin-bottom: 10px;
+    
+  }
+    
+  .copy-right{
+    
+    padding: 10px 0;
+    
+    text-align: center;
+    
+    background-color: rgb(66, 66, 66);
+    
+  }
+    
+  @media screen and (max-width:992px){
+    
+    .about, .contact{
+    
+    width: 25%;
+    
+  }
+    
+  .link{
+   
+    width: 30%;
+   
+  }
+  
+}
+    
+  @media screen and (max-width:767px){
+    
+  .about, .contact, .link{
+    
+  width: 100%;
+    
+}
+  
+  .footer_info{
+    
+    flex-direction: column;
+    }
+  
+  }
+  .view-page-editor {
+      
+    padding-top: 2px;
+    
+    font-size: 18px;
+  
+    }
+  
+  .view-page-editor a {
+      
+    text-decoration: none;
+    
+    color: #53ffa3;
+    
+    cursor: pointer;
+    
+  }
+  
+  .view-page-editor a:hover {
+      
+    color: #fff;
+    
+    transition: 0.5s;
+    
+  }
+  
+  .flogo{
+   
+    border-radius: 80%;
+  
+    width: 80px;
+  
+    height: 80px;
+    
+  }
+  
+  .fa {
+  
+    margin-bottom: 10px;
+  
+    padding-right: 70px;
+  
+    font-size: 30px;
+  
+    width: 50px;
+  
+    text-align: center;
+  
+    text-decoration: none;
+  
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    
+    opacity: 0.7;
+  
+  }
+  
+  /* Set a specific color for each brand */
+  
+  .fa-facebook {
+  
+    color: white;
+  
+  }
+  
+  .fa-twitter {
+  
+    color: white;
+  
+  }
+  
+  .fa-instagram {
+    
+    color: white;
+  
+  }
+  
+
+
+
